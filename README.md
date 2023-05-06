@@ -7,7 +7,7 @@ Allow ubus access over uhttpd.
 
 ```shell
 # opkg update
-# opkg install rpcd-mod-file uhttpd-mod-ubus
+# opkg install uhttpd-mod-ubus
 ```
 
 And create on your OpenWrt device a read-only user to be used by setting up the ACL file `/usr/share/rpcd/acl.d/user.json`.
